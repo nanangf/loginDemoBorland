@@ -14,9 +14,9 @@
 	.CloseAllTabs @@ hightlight id_;_658074_;_script infofile_;_ZIP::ssf8.xml_;_
 End With
 
-text String = "nama"
-nmbr string = "nama"
+text = "nama"
+nmbr = "nama"
 
 If text = nmbr Then
-	MsgBox("GOOD")
+	MsgBox("GOOD MARGOOD")
 End If
