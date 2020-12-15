@@ -18,5 +18,5 @@ text = "nama"
 nmbr = "nama"
 
 If text = nmbr Then
-	MsgBox("GOOD MARGOOD")
+	MsgBox("HALLO")
 End If
