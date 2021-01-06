@@ -1,5 +1,6 @@
 ﻿With Browser("InsuranceWeb: Home")
 	With .Page("InsuranceWeb: Home")
+		.WebEdit("login-form:email").Click
 		.WebEdit("login-form:email").Set "john.smith@gmail.com" @@ script infofile_;_ZIP::ssf9.xml_;_
 		.WebElement("Select a Service or login").Click @@ script infofile_;_ZIP::ssf10.xml_;_
 		.WebEdit("login-form:password").Set "john" @@ script infofile_;_ZIP::ssf11.xml_;_
@@ -11,5 +12,5 @@
 		.Image("logout").Click 44,14 @@ script infofile_;_ZIP::ssf15.xml_;_
 	End With
 	
-	.Close
+'	.Close
 End With
