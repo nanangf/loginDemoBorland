@@ -12,5 +12,4 @@
     Set objSheet  = Nothing
     Set objWorkbook = Nothing
     Set objExcel = Nothing
-    
-'RunAction "Action4", oneIteration
+

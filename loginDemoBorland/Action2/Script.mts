@@ -1,9 +1,4 @@
 ﻿With Browser("InsuranceWeb: Home")
-
-	DataTable.Import("C:\Users\nanangfaisal\Documents\Unified Functional Testing\loginDemoBorland\Data\Data.xlsx")
-	row = DataTable.GetRowCount
-	MsgBox(row)
-	
 	i = 0	
 	Do
 	i = i+1
