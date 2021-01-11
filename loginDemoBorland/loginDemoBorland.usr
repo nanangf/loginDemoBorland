@@ -14,7 +14,6 @@ DevelopTool=AQT
 Action0=Action0\Script.mts
 login=Action1\Script.mts
 signUp=Action2\Script.mts
-Close=Action8\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -66,6 +65,3 @@ Action1\ObjectRepository.bdb=
 Action2\Script.mts=
 Action2\Resource.mtr=
 Action2\ObjectRepository.bdb=
-Action8\Script.mts=
-Action8\Resource.mtr=
-Action8\ObjectRepository.bdb=
