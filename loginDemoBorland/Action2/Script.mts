@@ -1,9 +1,10 @@
 ﻿With Browser("InsuranceWeb: Home")
 	i = 1	
-	While i < 3
+	
+	Do
 	
 	i = i+1
-	Page("InsuranceWeb: Home").Image("Signup").Click 42,11
+		.Page("InsuranceWeb: Home").Image("Signup").Click 42,11	
 		With .Page("InsuranceWeb: Sign up")
 			.WebEdit("signup:fname").Set "john" @@ script infofile_;_ZIP::ssf2.xml_;_
 			.WebEdit("signup:lname").Set "smith1" @@ script infofile_;_ZIP::ssf3.xml_;_
@@ -16,7 +17,7 @@
 			.WebEdit("signup:password").Set "123456" @@ script infofile_;_ZIP::ssf12.xml_;_
 			.Link("Home").Click @@ script infofile_;_ZIP::ssf13.xml_;_
 		End With
-
+		
+	Loop While i = 3
 	.Close	
-	End  While
 End With
