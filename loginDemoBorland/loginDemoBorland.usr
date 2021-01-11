@@ -14,6 +14,8 @@ DevelopTool=AQT
 Action0=Action0\Script.mts
 login=Action1\Script.mts
 signUp=Action2\Script.mts
+GetDataExcel2=Action4\Script.mts
+GetDataExcel=Action5\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -64,3 +66,9 @@ Action1\ObjectRepository.bdb=
 Action2\Script.mts=
 Action2\Resource.mtr=
 Action2\ObjectRepository.bdb=
+Action4\Script.mts=
+Action4\Resource.mtr=
+Action4\ObjectRepository.bdb=
+Action5\Script.mts=
+Action5\Resource.mtr=
+Action5\ObjectRepository.bdb=
